@@ -1,0 +1,24 @@
+{
+  "name": "cursor-watcher-3d",
+  "version": "1.0.0",
+  "description": "An interactive web page with eyes watching the mouse cursor",
+  "main": "index.html",
+  "scripts": {
+    "dev": "concurrently 'npm:watch' 'npm:serve'",
+    "watch": "parcel watch --public-url './' index.html",
+    "serve": "http-server -s -c-1 dist",
+    "build": "parcel build --public-url './' index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilzoide/cursor-watcher-3d.git"
+  },
+  "author": "gilzoide",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "http-server": "^0.12.3",
+    "parcel-bundler": "^1.12.4",
+    "three": "^0.118.3",
+    "typescript": "^3.9.7"
+  }
+}
