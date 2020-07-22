@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Human_Eye.obj-fa85ee69d9c8488a3dfe768340c5d643.mesh"
+
+[deps]
+
+files=[ "res://.import/Human_Eye.obj-fa85ee69d9c8488a3dfe768340c5d643.mesh" ]
+
+source_file="res://Eye/Human_Eye.obj"
+dest_files=[ "res://.import/Human_Eye.obj-fa85ee69d9c8488a3dfe768340c5d643.mesh", "res://.import/Human_Eye.obj-fa85ee69d9c8488a3dfe768340c5d643.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
