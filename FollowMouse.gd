@@ -1,4 +1,4 @@
-extends Position3D
+extends Spatial
 
 export(NodePath) var cameraPath
 onready var camera: Camera = get_node(cameraPath)
